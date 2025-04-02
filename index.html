@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayatri Sivani Susarla Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f482f8941e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certifications</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hey!, I am <span>Gayatri Sivani Susarla</span>.</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photos/GS photo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am aspiring Data Scientist pursuing Master's degree in Data Science major at Stony Brook University, New York. I developed passion for Large Language Models and Big Data Analytics in my MS journey, and move forward to collaborate with professionals in these fields. I want to focus on solving real-world challenges, driving impactful results and grow professionally. I am eager to contribute to the evolution of the Data Science field and discover unrevealed data. Lets connect to explore data in all possible ways and invent new scientific skills to study the "WORD"😉    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Programming Skills</span><br>Python | R | Java | SQL | OCAML | SAPBW </li>
+                
+                        <li><span>AI/ML Libraries</span><br>PyTorch | TensorFlow | SciKit-Learn <li>
+                        <li><span>Cloud and Data visualization</span><br> Snowflake | CloudLab | Azure | PowerBI | SAP Analytics Cloud | Matplotlib | Seaborn | Plotly</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Experience">
+                    <ul>
+                        <li><span>Systems Engineer, Infosys</span><br><span>Jul,2022 - Dec,2023</span><br>As a Systems Engineer at Infosys I specialized in SAPBI and worked for the client company P&G, here's an overview of my work experience:<br><span>1. Data Pipeline Optimization & Monitoring:</span><br>I monitored and optimized process chains and pipelines, ensuring efficient and accurate data flow into the SAP BW warehouse, skills I now apply to streamline data pipelines in data science workflows.<br><span>2. Extraction, Transform and Load(ETL):</span><br>Expirenced in global ETL processes to ensure efficient data load operations, server health, and error resolution across multiple time zones using SAPBW Workbench, enhancing data pipeline reliability. <br><span>3.Advanced Tools & Learning:</span><br>With hands-on expertise I have done certain certifications in SAP Analytics Cloud,SAP ABAP, Snowflake, Microsoft Azure and SAP BW, complemented by training in Java and DBMS </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>Master's in Data Science</span><br>Jan,2024 - Present<br> Stony Brook University, New York</li>
+                        <li><span>Bachelor in Technology</span><br>Jun,2018 - May,2022 <br>Electronics and Instrumentation Engineering<br> Adikavi Nannaya University, Andhra Pradesh, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>Mastering Generative AI-A Simple Guide for Beginners</h2>
+                <p>In this certification, I got to learn basic Generative AI, Large Language Models, Transformers. I implemented downstream tasks, fine-tuned LLM'S in Python </p>
+                <a href="https://www.udemy.com/certificate/UC-75ec041e-7c57-42ec-bc5a-91e8f49428ce/">View credential</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>Snowflake</h2>
+                <p> Expertise in building scalable data pipelines and optimizing data workflows in Snowflake. <br> Proficiency in designing, managing, and optimizing Snowflake data warehouses for efficient analytics. <br> Skilled in implementing data lakes on Snowflake, ensuring seamless data ingestion and management. </p>
+                <a href="https://www.credly.com/users/gayatri-sivani-susarla">View credentials</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>Functional Programming Language: OCAML</h2>
+                <p>I learned fundamental principles of functional programming, including immutability, referential transparency, the power of higher-order functions, syntax and semantics of OCaml Language <br>Type Inference and Polymorphism <br> Pattern Matching <br> Recursive Thinking </p>
+                <a href="#">View credential</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>P&G SAP ABAP Developer</h2>
+                <p> Issuer: Procter & Gamble <br>Issued: Aug 2023<br> Credential ID: ET5045 <br> Summary: Certified in SAP ABAP development, showcasing expertise in building and optimizing enterprise applications. Earned while working at Infosys.  </p>
+                
+            <div>
+        </div>
+    </div>
+</div>
+<!-------Portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="photos/NCAA.png">
+                <div class="layer">
+                    <h3> NCAA-March-Madness-Basketball-Tournament-Outcome-Prediction-Model</h3>
+                    <p>NCAA basketball game is very famous, predicting the outcome of tournament is interesting game, but applying machine learning skills to predict outcome is much more interesting. This project is forecasting the outcomes of both the men's and women's 2024 collegiate basketball tournaments, a portfolio of brackets based on historical data. I used Logistic Regression, Random Forest, Gradient Boosting, and K-NN to predict models and attained some accuracies regarding the dataset.   </p>
+                    <a href="https://github.com/GAYATRI-SIVANI-SUSARLA/NCAA-March-Madness-Basketball-Tournament-Outcome-Prediction-Model"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photos/AIRBNB.png">
+                <div class="layer">
+                    <h3>Exploratory Data Analytics-Airbnb Listings</h3>
+                    <p>This project performs Exploratory Data Analysis (EDA) on New York Airbnb Listing 2024 data to uncover trends and patterns in rental listings. I used Python Jupyter Notebook to do EDA and used libraries like Pandas, Numpy, Matplotlib, and Seaborn for cleaning, visualization, and analysis.This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions.I identified key trends and developed actionable recommendations</p>
+                    <a href="https://github.com/GAYATRI-SIVANI-SUSARLA/Airbnb_Listing2024_Python_Project"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photos/Quantum.png">
+                <div class="layer">
+                    <h3>Quantum Search Algorithm on Weighted Databases</h3>
+                    <p>This project implements an Adaptive-Grover-Algorithm using Qiskit, analyzing different dataset distributions and producing visualization results. Analysis and implementation reveal the adaptive quantum search nature compared to linear search. Addressed key challenges in designing an adaptive Grover search compared to original algorithm, explained results on real-world weighted data. The project provides a few enhancements to the original Grover’s search implementation strategies and scalability of the algorithm</p>
+                    <a href="https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="https://github.com/GAYATRI-SIVANI-SUSARLA"class="btn">See more</a>
+    </div>
+</div>
+
+<!-----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> gayatrisivani3010@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> +1-9342464724</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gayatri-sivani-susarla-975856263/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/GAYATRI-SIVANI-SUSARLA"><i class="fa-brands fa-github"></i></a>
+                </div>  
+                <a href="GS DS Resume.pdf" view class="btn btn2">View My Resume</a>     
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> Copyright Gayatri Sivani Susarla</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById(sidemenu)
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+<form name="submit-to-google-sheet">
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwVYnosdorpJ7NVP0Hmo_oOca8ebcCpvS8E7mc8Hyh-zbjDzV1cnCoMt94W-4St1N5N/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
